@@ -1,0 +1,27 @@
+# Node dependencies
+api/node_modules
+view/node_modules
+node_modules
+
+# Build artifacts
+api/dist
+view/dist
+view/dist-ssr
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# SQLite data directory (mounted volume)
+data/
+
+# OS/editor junk
+.DS_Store
+*.swp
+.idea/
+.vscode/
