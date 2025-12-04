@@ -15,7 +15,7 @@
           <form class="grid" style="gap: 0.75rem" @submit.prevent="handleOpen">
             <label class="field">
               <span>Saldo neto anterior</span>
-              <input v-model.number="openForm.saldoNetoAnterior" type="number" min="0" step="0.01" class="input" required />
+              <input v-model.number="openForm.saldoNetoAnterior" type="number" step="0.01" class="input" required />
             </label>
             <label class="field">
               <span>Porcentaje de gasto (ej. 0.15)</span>
